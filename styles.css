@@ -149,7 +149,7 @@ section {
     background-position: center;
 }
 
-.promises {
+.has-inline-elements {
 	font-size: 0px;
 }
 
@@ -162,6 +162,11 @@ section {
     flex-direction: row;
     color: white;
     font-size: 16px;
+}
+
+.fancybox-title {
+	font: 18px/1.6 lato;
+	text-align: center;
 }
 
 footer {

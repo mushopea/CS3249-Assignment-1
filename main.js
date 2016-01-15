@@ -1,2 +1,13 @@
+$(document).ready(function() {
+    new WOW().init();
+    $(".fancybox").fancybox({
+        openEffect: 'elastic',
+        closeEffect: 'elastic',
 
-new WOW().init();
+        helpers: {
+            title: {
+                type: 'inside'
+            }
+        }
+    });
+});
