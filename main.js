@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    new WOW().init();
     $(".fancybox").fancybox({
         openEffect: 'elastic',
         closeEffect: 'elastic',

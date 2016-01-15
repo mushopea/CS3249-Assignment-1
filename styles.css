@@ -2,18 +2,7 @@
 body {
     font: 18px/1.8 Lato;
     background-color: #42413C;
-    margin: 0;
-    padding: 0;
     color: #000;
-}
-
-header,
-section,
-footer,
-aside,
-article,
-figure {
-    display: block;
 }
 
 ul,
@@ -28,11 +17,8 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
-    margin-top: 0;
-    padding-right: 15px;
-    padding-left: 15px;
+h6 {
+    font-family: 'Karla';
 }
 
 h1,
@@ -40,8 +26,11 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    font-family: 'Karla';
+h6,
+p {
+    margin-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 a img {
@@ -54,13 +43,13 @@ a:visited {
 }
 
 #wrapper {
-    width: 960px;
     margin: 0 auto;
+    width: 960px;
     background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/symphony.png');
 }
 
 header {
-    background-color: #EFFFF3;
+    background-color: #fff;
     background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/symphony.png');
     overflow: hidden;
 }
@@ -136,8 +125,17 @@ aside h1 {
 }
 
 section {
-	margin-bottom: 55px;
+    margin-bottom: 55px;
 }
+
+
+footer {
+    padding: 10px 0;
+    background-color: #42413C;
+    clear: both;
+    text-align: center;
+}
+
 
 .promise-container {
     display: inline-block;
@@ -150,7 +148,7 @@ section {
 }
 
 .has-inline-elements {
-	font-size: 0px;
+    font-size: 0px;
 }
 
 .promise {
@@ -165,12 +163,12 @@ section {
 }
 
 .fancybox-title {
-	font: 18px/1.6 lato;
-	text-align: center;
+    font: 18px/1.6 lato;
+    text-align: center;
 }
 
-footer {
-    padding: 10px 0;
-    background-color: #EFEFEF;
-    clear: both;
+.rotate-img img {
+    transform: rotate(-11deg);
+    width: 80%;
+    padding: 10%;
 }
